@@ -1,4 +1,4 @@
-package libroCap02.fecha;
+package libroCap02.fechas;
 
 public class TestFecha {
     public static void main(String[] args) {
