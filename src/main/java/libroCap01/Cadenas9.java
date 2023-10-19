@@ -1,7 +1,10 @@
 package libroCap01;
-
-import java.util.Scanner;
-
+/**
+ * Clase compara 2 cadenas de caracterers si son iguales
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class Cadenas9 {
     public static void main(String[] args) {
         String s1 = "Hola";

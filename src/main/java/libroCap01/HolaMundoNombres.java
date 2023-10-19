@@ -2,10 +2,13 @@ package libroCap01;
 
 import java.util.Scanner;
 
+/**
+ * Clase pide al usuario que ingrese su nombre, edad, altura; luego mostrarlo por consola
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class HolaMundoNombres {
-    /*
-        Pide al usuario que ingrese su nombre, edad, altura; luego mostrarlo por consola
-    */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

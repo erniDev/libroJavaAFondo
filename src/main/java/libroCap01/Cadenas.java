@@ -1,6 +1,11 @@
 package libroCap01;
 
 public class Cadenas {
+    /**
+     * Clase que permite dividir una cadena de caracteres en cada caracter
+     * @author Erick Nicolas Gonzalez Rojas
+     * @version 1.0 19/10/2023
+     */
     public static void main(String[] args) {
         String s = "Esta es mi cadena";
 

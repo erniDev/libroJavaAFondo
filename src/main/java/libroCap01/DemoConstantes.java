@@ -1,7 +1,12 @@
 package libroCap01;
 
 import java.util.Scanner;
-
+/**
+ * Clase muestra como se debe declara constantes
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class DemoConstantes {
 
     public static final int LUNES = 1;

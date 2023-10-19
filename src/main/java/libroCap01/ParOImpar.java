@@ -1,5 +1,10 @@
 package libroCap01;
-
+/**
+ * Clase pide al usuario que digite un numero y muestra en pantalla si es par o impar
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 import java.util.Scanner;
 
 public class ParOImpar {

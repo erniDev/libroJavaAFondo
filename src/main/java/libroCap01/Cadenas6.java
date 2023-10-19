@@ -1,7 +1,15 @@
 package libroCap01;
 
 import java.util.Scanner;
-
+/**
+ * Clase con:
+ *      Integer.toBinaryString() -> numero entero a binario
+ *      Integer.toOctalString()  -> numero entero a octal
+ *      Integer.toHexString()    -> munero entero a hexadecimal
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class Cadenas6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

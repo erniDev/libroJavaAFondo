@@ -1,7 +1,12 @@
 package libroCap01;
 
 import java.util.Scanner;
-
+/**
+ * Clase pide tu nombre y imprime un hola mundo con el
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class HolaMundoNombre {
     public static void main(String[] args) {
         // Permite leer datos por el teclado

@@ -1,9 +1,12 @@
 package libroCap01;
-/*
-    Concatenar cadenas con +
-        tardo con n = 1000008  1679 milisegundos
-                  n = 1000000  113541 milisegundos
 
+/**
+ * Clase Concatena cadenas con + tardo con:
+ *      n = 1000008  1679 milisegundos
+ *      n = 1000000  113541 milisegundos
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
 */
 public class Cadenas5b {
     public static void main(String[] args) {

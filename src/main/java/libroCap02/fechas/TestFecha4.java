@@ -2,6 +2,11 @@ package libroCap02.fechas;
 
 import java.util.Scanner;
 
+/**
+ * Clase que se encarga de sumar 1 dia a una fecha que el usuario dijite (todos los meses son de 30 dias)
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
 public class TestFecha4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

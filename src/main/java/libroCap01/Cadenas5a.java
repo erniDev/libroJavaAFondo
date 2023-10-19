@@ -1,12 +1,16 @@
 package libroCap01;
-/*
-    Concatenar cadenas con StringBuffer
-        tardo con n = 1000008  8 milisegundos
-                  n = 1000000  25 milisegundos
-*/
+/**
+ * Clase que concatena cadenas con StringBuffer, tardo con:
+ *      n = 1000008  8 milisegundos
+ *      n = 1000000  25 milisegundos
+ *
+ * @author Erick Nicolas Gonzalez Rojas
+ * @version 1.0 19/10/2023
+ */
+
 public class Cadenas5a {
     public static void main(String[] args) {
-        //Obtengo el milisegundo actual
+        //Obtengo el milisegundo actual en ejecucion
         long hi = System.currentTimeMillis();
 
         //Instancio un StringBufer inicialmente vacio
