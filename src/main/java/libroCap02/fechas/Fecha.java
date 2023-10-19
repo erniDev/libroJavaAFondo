@@ -49,16 +49,29 @@ public class Fecha {
 
     public Fecha() {
     }
+// Esta mal diseñado el programa del libro
 
     /*
       Permite leer una fecha de forma de una cadena de String y convertirlo a 3 variables como
       anio, mes, dia
   */
+    private String sFecha;
+
+    public String getsFecha() {
+        return sFecha;
+    }
+
+    public void setsFecha(String sFecha) {
+        this.sFecha = sFecha;
+    }
+
     public void fecha (String s){
-        // Imprima la primera ocurrencia de '/'
+        s = sFecha;
+
+        // Busca la primera ocurrencia de '/'
         int pos1 =  s.indexOf('/');
 
-        // Imprima la ultima ocurrencia de '/'
+        // Busca la ultima ocurrencia de '/'
         int pos2 = s.lastIndexOf('/');
 
         //Proceso el dia
@@ -72,20 +85,30 @@ public class Fecha {
         //Proceso del anio
         String sAnio = s.substring(pos2 + 1);
         anio = Integer.parseInt(sAnio);
+
+        System.out.println(dia);
+        System.out.println(mes);
+        System.out.println(anio);
+        fechaToDias();
+
     }
     /*
     *
     */
     private int fechaToDias() {
-        return anio * 306 + mes * 30 + dia;
+        int fe = anio * 360 + mes * 30 + dia;
+        return fe ;
     }
 
     /*
         asigna la fecha expresada en dias a los atributos
     */
-    private void diasToFecha (int i){
+    private String diasToFecha (int i){
          // Dividimos en en 360 para tener el anio
-         anio = (int) i / 360;
+        System.out.println("4566666666666");
+
+        System.out.println(i);
+        anio = (int) i / 360;
 
          // Del resto de la division anterior obtenemos el mes y el dia
          int resto = i % 360;
@@ -109,12 +132,17 @@ public class Fecha {
              mes = 12;
              anio --;
          }
+         String fecha1;
+         return fecha1 = dia + "/" + mes + "/" + anio;
     }
     public void addDias (int d){
         // Convierto la fecha a dias y le sumo a d
+        fecha(sFecha);
         int sum = fechaToDias() + d;
 
         // La fecha resultante (sum) la separo en dia, mes y anio
         diasToFecha(sum);
+
     }
+
 }
