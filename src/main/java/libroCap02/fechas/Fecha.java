@@ -5,6 +5,12 @@ public class Fecha {
     private int mes;
     private int anio;
 
+    public Fecha() {
+    }
+
+    public Fecha(String f) {
+    }
+
     //Sobreescribimos el metodo toString (lo heredamos de object)
     public String toString (){
         // Retprna la fecha tal como queremos que se vea la fecha
@@ -45,9 +51,6 @@ public class Fecha {
         this.dia = dia;
         this.mes = mes;
         this.anio = anio;
-    }
-
-    public Fecha() {
     }
 // Esta mal diseñado el programa del libro
 

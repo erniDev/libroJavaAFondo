@@ -2,7 +2,8 @@ package libroCap02.fechas;
 
 public class TestFecha {
     public static void main(String[] args) {
-        Fecha f = new Fecha();
+        Fecha f = null;
+        f = new Fecha();
         f.setAnio(1970);
         f.setDia(2);
         f.setMes(10);
