@@ -21,15 +21,15 @@ public class FechaDetallada extends Fecha{
 
     public FechaDetallada() {
     }
-
-    public FechaDetallada(String f) {
-        super(f);
+    //Invocaoamos al constructor padre
+    public FechaDetallada(String s) {
+        super(s);
     }
+    //Invocaoamos al constructor padre
 
     public FechaDetallada(int dia, int mes, int anio) {
         super(dia, mes, anio);
     }
-
     public String toString(){
         return getDia() + " de " + meses[getMes()-1] + " del " + getAnio();
     }
