@@ -31,6 +31,6 @@ public class FechaDetallada extends Fecha{
     }
 
     public String toString(){
-        return getDia() + " de " + meses[getMes()-1] + " de " + getAnio();
+        return getDia() + " de " + meses[getMes()-1] + " del " + getAnio();
     }
 }
